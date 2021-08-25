@@ -1,0 +1,14 @@
+#!/bin/bash -x
+
+ispresent=1;
+randomcheck=$((RANDOM%2));
+if [ $ispresent -eq $randomcheck ];
+then
+employerateperhour=20;
+employehour=8;
+pay=$(($employehour * $employerateperhour));
+else
+salary=0;
+fi
+echo $pay
+

@@ -1,0 +1,9 @@
+#!/bin/bash 
+echo enter number and power
+value=2
+power=n
+for((i=0; i<=2; i++))
+do
+	num=[ 2^n]
+done 
+echo "print power of the table"
